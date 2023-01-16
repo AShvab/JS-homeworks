@@ -18,7 +18,7 @@
 // let productName = "Droid";
 // let pricePerItem = 2000;
 
-// // Change code below this line
+// Change code below this line
 
 // productName = 'Repair droid'
 // pricePerItem = 3500
@@ -55,7 +55,7 @@
 // const pricePerItem = 3500;
 // const orderedQuantity = 4;
 
-// // Change code below this line
+// Change code below this line
 // const totalPrice = pricePerItem * orderedQuantity;
 
 // console.log(totalPrice)
@@ -69,7 +69,7 @@
 // const productName = "Droid";
 // const pricePerItem = 3500;
 
-// // Change code below this line
+// Change code below this line
 // const message = `You picked ${productName}, price per item is ${pricePerItem} credits`
 
 // console.log(message)
@@ -111,7 +111,7 @@
 // Change code below this line
 // function add(a, b, c) {
 //   console.log(`Addition result equals ${a + b +c}`);
-//   // Change code above this line
+  // Change code above this line
 // }
 // add(15, 27, 10);
 // add(10, 20, 30);
@@ -122,9 +122,9 @@
 // Дополни код функции add так, чтобы она возвращала результат сложения значений трёх параметров a, b и c.
 
 // function add(a, b, c) {
-//   // Change code below this line
+  // Change code below this line
 //   return a + b + c
-//   // Change code above this line
+  // Change code above this line
 // }
 // add(2, 5, 8); // 15
 
@@ -143,9 +143,9 @@
 // Используй синтаксис шаблонных строк.
 
 // function makeMessage (name, price) {
-//   // Change code below this line
+  // Change code below this line
 //    const message = `You picked ${name}, price per item is ${price} credits`;
-//   // Change code above this line
+  // Change code above this line
 //   return message;
 // };
 
@@ -163,9 +163,9 @@
 // Дополни код функции так, чтобы в переменную totalPrice записывалась общая сумма покупки, результат умножения кол-ва товаров на цену одного.
 
 // function calculateTotalPrice (orderedQuantity, pricePerItem) {
-//   // Change code below this line
+  // Change code below this line
 //   const totalPrice = orderedQuantity * pricePerItem;
-//   // Change code above this line
+  // Change code above this line
 //   return totalPrice;
 // };
 
@@ -187,9 +187,9 @@
 // Не забудь о цене доставки при вычислениях общей стоимости.
 
 // function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
-//   // Change code below this line
+  // Change code below this line
 //     const message = `You ordered droids worth ${orderedQuantity * pricePerDroid + deliveryFee} credits. Delivery (${deliveryFee} credits) is included in total price.`
-//   // Change code above this line
+  // Change code above this line
 //     return message;
 // }
 
@@ -204,9 +204,9 @@
 // Человек считается совершеннолетним в возрасте 18 лет и старше.
 
 // function isAdult(age) {
-//   // Change code below this line
+  // Change code below this line
 //     const passed = age >= 18;
-//   // Change code above this line
+  // Change code above this line
 //     return passed;
 // }
 
@@ -224,9 +224,9 @@
 
 // function isValidPassword(password) {
 //     const SAVED_PASSWORD = 'jqueryismyjam';
-//   // Change code below this line
+  // Change code below this line
 //     const isMatch = password === 'jqueryismyjam';
-//   // Change code above this line
+  // Change code above this line
 //     return isMatch;
 // }
 
@@ -268,14 +268,14 @@
 
 // function checkStorage(available, ordered) {
 //     let message;
-//   // Change code below this line
+  // Change code below this line
 //     if (available >= ordered) {
 //     message = "Order is processed, our manager will contact you."
 //     }
 //     else {
 //     message = "Not enough goods in stock!"
 //     }
-//   // Change code above this line
+  // Change code above this line
 //     return message;
 // }
 
@@ -294,7 +294,7 @@
 // let c = 15;
 // let d = 20;
 
-// // Change code below this line
+// Change code below this line
 // a += 2;
 // b -= 4;
 // c *= 3;
@@ -318,14 +318,14 @@
 
 // function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 //     let message;
-//   // Change code below this line
+  // Change code below this line
 //   const totalPrice = pricePerDroid * orderedQuantity
 //     if (totalPrice > customerCredits) {
 //     message = 'Insufficient funds!'
 //     } else {
 //     message = `You ordered ${orderedQuantity} droids, you have ${customerCredits - totalPrice} credits left`
 //     }
-//   // Change code above this line
+  // Change code above this line
 //     return message;
 // }
 
@@ -376,7 +376,7 @@
 
 // function checkStorage(available, ordered) {
 //     let message;
-//   // Change code below this line
+  // Change code below this line
 //     if (ordered === 0) {
 //     message = "There are no products in the order!"
 //     } else if (ordered > available) {
@@ -384,7 +384,7 @@
 //     } else {
 //     message = "The order is accepted, our manager will contact you"
 //     }
-//   // Change code above this line
+  // Change code above this line
 //     return message;
 // }
 
@@ -476,7 +476,7 @@
 //     const SILVER_DISCOUNT = 0.05;
 //     const GOLD_DISCOUNT = 0.1;
 //     let discount;
-//   // Change code below this line
+  // Change code below this line
 //     if (totalSpent >= 50000) {
 //         discount = GOLD_DISCOUNT
 //     } else
@@ -488,7 +488,7 @@
 //             } else {
 //                 discount = BASE_DISCOUNT
 //             }
-//   // Change code above this line
+  // Change code above this line
 //     return discount;
 // }
 
@@ -506,9 +506,9 @@
 
 // function checkStorage(available, ordered) {
 //     let message;
-//   // Change code below this line
+  // Change code below this line
 //     message = ordered > available ? "Not enough goods in stock!" : "The order is accepted, our manager will contact you"
-//   // Change code above this line
+  // Change code above this line
 //     return message;
 // }
 
@@ -529,9 +529,9 @@
 // function checkPassword(password) {
 //     const ADMIN_PASSWORD = "jqueryismyjam";
 //     let message;
-//   // Change code below this line
+  // Change code below this line
 //     message = password === "jqueryismyjam" ? "Access is allowed" : "Access denied, wrong password!"
-//   // Change code above this line
+  // Change code above this line
 //     return message;
 // }
 
@@ -559,7 +559,7 @@
 
 // function getSubscriptionPrice(type) {
 //     let price;
-//   // Change code below this line
+  // Change code below this line
 //     switch (type) { // Change this line
 //     case "starter": // Change this line
 //       price = 0; // Change this line
@@ -573,7 +573,7 @@
 //       price = 50; // Change this line
 //       break;
 //     }
-//   // Change code above this line
+  // Change code above this line
 //     return price;
 // }
 
@@ -594,7 +594,7 @@
 // function checkPassword(password) {
 //     const ADMIN_PASSWORD = "jqueryismyjam";
 //     let message;
-//   // Change code below this line
+  // Change code below this line
 //     switch (password) {
 //     case null:
 //     message = "Canceled by user!";
@@ -605,7 +605,7 @@
 //     default:
 //     message = "Access denied, wrong password!"
 //     }
-//   // Change code above this line
+  // Change code above this line
 //     return message;
 // }
 
@@ -629,7 +629,7 @@
 
 // function getShippingCost(country) {
 //     let message;
-//   // Change code below this line
+  // Change code below this line
 //     let price;
     
 //     switch (country) {
@@ -652,7 +652,7 @@
 //     default:
 //     message = 'Sorry, there is no delivery to your country';
 //     }
-//   // Change code above this line
+  // Change code above this line
 //     return message;
 // }
 
@@ -686,11 +686,11 @@
 // lastElement - последний символ строки.
 
 // const courseTopic = "JavaScript essentials";
-// // Change code below this line
+// Change code below this line
 // const courseTopicLength = courseTopic.length;
 // const firstElement = courseTopic[0];
 // const lastElement = courseTopic[courseTopic.length - 1];
-// // Change code above this line
+// Change code above this line
 // console.log(courseTopicLength);
 // console.log(firstElement);
 // console.log(lastElement);
@@ -724,9 +724,9 @@
 
 // function formatMessage(message, maxLength) {
 //     let result;
-//   // Change code below this line
+  // Change code below this line
 //     result = message.length > maxLength ? message.slice(0, maxLength) + '...' : message;
-//   /// Change code above this line
+  /// Change code above this line
 //     return result;
 // }
 
@@ -782,9 +782,9 @@
 
 // function checkForSpam(message) {
 //     let result;
-//   // Change code below this line
+  // Change code below this line
 //     result = message.toLowerCase().includes('sale') || message.toLowerCase().includes('spam');
-//   // Change code above this line
+  // Change code above this line
 //     return result;
 // }
 
