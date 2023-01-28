@@ -1,4 +1,4 @@
-Завдання 1. 
+// Завдання 1. 
 
 // Присвой змінній apartment об'єкт, який описує квартиру з наступними характеристиками:
 // imgUrl - фотографія, значення "https://via.placeholder.com/640x480";
@@ -18,7 +18,7 @@
 //   };
 // ----------------------------------------------------------------------------------------------------------------
 
-Завдання 2. 
+// Завдання 2. 
 // Доповни об'єкт квартири властивістю owner, значенням якого буде об'єкт з інформацією про власника. Додай йому наступні властивості:
 
 // name - ім'я власника, значення "Henry";
@@ -40,7 +40,7 @@
 
 //   ----------------------------------------------------------------------------------------------------------------
 
-Завдання 3. 
+// Завдання 3. 
 
 // Доповни код, присвоївши оголошеним змінним вирази звернення до відповідних властивостей об'єкта apartment.
 // aptRating - рейтинг;
@@ -72,7 +72,7 @@
 
 //   ------------------------------------------------------------------------------------------------------------
 
-Завдання 4. 
+// Завдання 4. 
 // Доповни код, присвоївши оголошеним змінним вирази звернення до відповідних властивостей об'єкта apartment.
 
 // ownerName - ім'я власника;
@@ -95,19 +95,19 @@
 //     },
 //   };
   
-//   // Change code below this line
+  // Change code below this line
 //   const ownerName = apartment.owner.name;
 //   const ownerPhone = apartment.owner.phone;
 //   const ownerEmail = apartment.owner.email;
 //   const numberOfTags = apartment.tags.length;
 //   const firstTag = apartment.tags[0];
 //   const lastTag = apartment.tags[apartment.tags.length - 1];
-//   // Change code above this line
+  // Change code above this line
 //   console.log(lastTag);
 
 // ---------------------------------------------------------------------------------------------------------
 
-Завдання 5.
+// Завдання 5.
 // Доповни код, присвоївши оголошеним змінним вирази звернення до відповідних властивостей об'єкта apartment, використовуючи синтаксис «квадратних дужок».
 
 // aptRating - рейтинг;
@@ -124,12 +124,12 @@
 //     tags: ["premium", "promoted", "top"],
 //   };
   
-//   // Change code below this line
+  // Change code below this line
 //   const aptRating = apartment["rating"];
 //   const aptDescr = apartment["descr"];
 //   const aptPrice = apartment["price"];
 //   const aptTags = apartment["tags"];
-//   // Change code above this line
+  // Change code above this line
 //   console.log(aptRating);
 //   console.log(aptDescr);
 //   console.log(aptPrice);
@@ -137,7 +137,7 @@
 
 // -------------------------------------------------------------------------------------------------------------
 
-Завдання 6. 
+// Завдання 6. 
 // Доповни код, оновивши значення властивостей об'єкта apartment:
 
 // ціну у властивості price на 5000;
@@ -159,7 +159,7 @@
 //     },
 //   };
   
-//   // Change code below this line
+  // Change code below this line
 //     apartment.price = 5000;
 //     apartment.rating = 4.7;
 //     apartment.owner.name = "Henry Sibola";
@@ -171,7 +171,7 @@
 
 // -------------------------------------------------------------------------------------------------------------
 
-Завдання 7.
+// Завдання 7.
 // Додай об'єкту apartment кілька нових властивостей:
 
 // area - площа в квадратних метрах, число 60;
@@ -193,7 +193,7 @@
 //     },
 //   };
   
-//   // Change code below this line
+  // Change code below this line
 //   apartment.area = 60;
 //   apartment.rooms = 3;
   
@@ -210,7 +210,7 @@
 
 // -------------------------------------------------------------------------------------------------------
 
-Завдання 8.
+// Завдання 8.
 // Доповни код оголошення об'єкта таким чином, щоб у нього були властивості name, 
 // price, image і tags зі значеннями зі змінних з аналогічними іменами. 
 // Обов'язково використовуй синтаксис коротких властивостей.
@@ -222,17 +222,17 @@
 // const tags = ["on sale", "trending", "best buy"];
 
 // const product = {
-//   // Change code below this line
+  // Change code below this line
 //     name,
 //     price,
 //     image,
 //     tags,
-//   // Change code above this line
+  // Change code above this line
 // };
 
 // ---------------------------------------------------------------------------------------------------------------
 
-Завдання 9. 
+// Завдання 9. 
 // Доповни код оголошення об'єкта credentials таким чином, щоб в результаті 
 // у нього були дві властивості: email і password, імена яких зберігаються у 
 // змінних emailInputName і passwordInputName.
@@ -244,11 +244,11 @@
 // const passwordInputName = "password";
 
 // const credentials = {
-//   // Change code below this line
+  // Change code below this line
 
 // [emailInputName]: "henry.carter@aptmail.com",
 // [passwordInputName]: "jqueryismyjam",
-//   // Change code above this line
+  // Change code above this line
 // };
 
 // console.log(credentials.email);
@@ -256,7 +256,7 @@
 
 // ---------------------------------------------------------------------------------------------------------------
 
-Завдання 10.
+// Завдання 10.
 // Перебери об'єкт apartment, використовуючи цикл for...in, і запиши в масив keys всі його ключі,
 //  а в масив values всі значення його властивостей.
 
@@ -267,7 +267,7 @@
 //   };
 //   const keys = ["descr", "rating", "price"];
 //   const values = ["Spacious apartment in the city center", 4, 2153];
-//   // Change code below this line
+  // Change code below this line
   
 //   for (const key in apartment) {
     
@@ -278,7 +278,7 @@
 
 // -----------------------------------------------------------------------------------------------------------------
 
-Завдання 11.
+// Завдання 11.
 // Виконай рефакторинг рішення попереднього завдання, додавши в цикл for...in перевірку на власну властивість.
 
 // const keys = [];
@@ -292,18 +292,18 @@
 // apartment.price = 2153;
 
 // for (const key in apartment) {
-//    // Change code below this line
+   // Change code below this line
 // if (apartment.hasOwnProperty(key)){
 //   keys.push(key);
 //   values.push(apartment[key]);
   
 // }
-//   // Change code above this line
+  // Change code above this line
 // }
 
 // --------------------------------------------------------------------------------------------------------------
 
-Завдання 12.
+// Завдання 12.
 // Напиши функцію countProps(object), яка рахує і повертає кількість власних властивостей
 //  об'єкта в параметрі object. 
 // Використовуй змінну propCount для зберігання кількості властивостей об'єкта.
@@ -311,13 +311,13 @@
 
 // function countProps(object) {
 //     let propCount = 0;
-//     // Change code below this line
+    // Change code below this line
     
 //   for( let key in object){
 //   if(object.hasOwnProperty(key))
 //   propCount+=1;
 //   }
-//     // Change code above this line
+    // Change code above this line
 //     return propCount;
 //   }
 //   console.log(countProps({ name: "Mango", age: 2 })); 
@@ -325,7 +325,7 @@
 
 // ---------------------------------------------------------------------------------------------------
 
-Завданян 13.
+// Завданян 13.
 // Перебери об'єкт apartment, використовуючи метод Object.keys() і цикл for...of. 
 // Запиши у змінну keys масив ключів власних властивостей об'єкта 
 // apartment, і додай в масив values всі значення його властивостей.
@@ -336,7 +336,7 @@
 //     price: 2153,
 //   };
 //   const values = [];
-//   // Change code below this line
+  // Change code below this line
   
 //   const keys = Object.keys(apartment);
 //   for (const key of keys) {
@@ -347,12 +347,12 @@
 
 // -------------------------------------------------------------------------------------------------------
 
-Завданя 14.
+// Завданя 14.
 // Виконай рефакторинг функції countProps(object), використовуючи метод 
 // Object.keys() і, можливо, але не обов'язково, цикл for...of.
 
 // function countProps(object) {
-//     // Change code below this line
+    // Change code below this line
 //     let propCount = 0;
 //     const keys = Object.keys(object);
   
@@ -360,7 +360,7 @@
 //         propCount += 1;
 //       }
 //     return propCount;
-//     // Change code above this line
+    // Change code above this line
 //   }
   
 //   console.log(countProps({}));
@@ -369,7 +369,7 @@
 
 // ----------------------------------------------------------------------------------------------------------
 
-Завдання 15.
+// Завдання 15.
 // Запиши у змінну keys масив ключів власних властивостей об'єкта apartment, а у змінну 
 // values - масив всіх значень його властивостей. Використовуй
 //  методи Object.keys() і Object.values().
@@ -379,7 +379,7 @@
 //     rating: 4,
 //     price: 2153,
 //   };
-//   // Change code below this line
+  // Change code below this line
 //   const keys = Object.keys(apartment);
 //   console.log(keys);
 //   const values = Object.values(apartment);
@@ -387,14 +387,14 @@
 
 // -----------------------------------------------------------------------------------------------------------------
 
-Завдання 16.
+// Завдання 16.
 // Напиши функцію countTotalSalary(salaries), яка приймає об'єкт зарплат, де ім'я властивості - це ім'я
 //  співробітника, а значення властивості - це зарплата. Функція повинна розрахувати загальну суму зарплат 
 // співробітників і повернути її. Використовуй змінну totalSalary для зберігання загальної суми зарплати
 
 // function countTotalSalary(salaries) {
 //     let totalSalary = 0;
-//     // Change code below this line
+    // Change code below this line
   
   
 //   const arrayOfValues = Object.values(salaries);
@@ -403,7 +403,7 @@
 //       totalSalary += salary;
 //     }
     
-//     // Change code above this line
+    // Change code above this line
 //     return totalSalary;
 //   }
 //   console.log(countTotalSalary({}));
@@ -412,7 +412,7 @@
 
 // ----------------------------------------------------------------------------------------------------------
 
-Завдання 17.
+// Завдання 17.
 // Перебери масив об'єктів colors, використовуючи цикл for...of. Додай у масив hexColors значення
 //  властивостей hex, а в масив rgbColors - значення 
 //  властивостей rgb з усіх об'єктів масиву colors.
@@ -426,7 +426,7 @@
   
 //   const hexColors = [];
 //   const rgbColors = [];
-//   // Change code below this line
+  // Change code below this line
   
 //   for (const color of colors) {
 //   hexColors.push(color.hex);
@@ -435,7 +435,7 @@
   
 // --------------------------------------------------------------------------------------------------------
 
-Завдання 18.
+// Завдання 18.
 // Напиши функцію getProductPrice(productName), яка приймає один параметр productName - назва продукту. 
 // Функція шукає об'єкт продукту з таким ім'ям (властивість name) в масиві products і повертає його ціну 
 // (властивість price). Якщо продукт з такою назвою не знайдений, функція повинна повертати null.
@@ -448,7 +448,7 @@
 //   ];
   
 //   function getProductPrice(productName) {
-//     // Change code below this line
+    // Change code below this line
   
 //   for (let product of products) {
 //     if (product.name === productName) {
@@ -458,7 +458,7 @@
 //   }
   
 //   return null;
-//     // Change code above this line
+    // Change code above this line
 //   }
 //   console.log(getProductPrice("Radar"));
 //   console.log(getProductPrice("Grip"));
@@ -467,7 +467,7 @@
 
 // -------------------------------------------------------------------------------------------------------------
 
-Завдання 19.
+// Завдання 19.
 // Напиши функцію getAllPropValues(propName), яка приймає один параметр propName - ім'я (ключ) 
 // властивості. Функція повинна повернути масив всіх значень властивості з таким ім'ям з кожного об'єкта 
 // в масиві products. Якщо в об'єктах відсутні властивості з 
@@ -481,7 +481,7 @@
 //   ];
   
 //   function getAllPropValues(propName) {
-//     // Change code below this line
+    // Change code below this line
 //   let array = [];
 //     for (let product of products){
 //       if (product.hasOwnProperty(propName)){
@@ -490,7 +490,7 @@
 //     }
   
 //   return array;
-//     // Change code above this line
+    // Change code above this line
 //   }
 //   console.log(getAllPropValues("name"));
 //   console.log(getAllPropValues("quantity"));
@@ -499,7 +499,7 @@
 
 // -----------------------------------------------------------------------------------------------------------
 
-Завдання 20.
+// Завдання 20.
 // Напиши функцію calculateTotalPrice(productName), яка приймає один параметр productName - назва товару. 
 // Функція повинна повернути загальну вартість (ціна * кількість) товару з таким ім'ям з масиву products.
 
@@ -511,7 +511,7 @@
 //   ];
   
 //   function calculateTotalPrice(productName) {
-//     // Change code below this line
+    // Change code below this line
 //   let totalPrice = 0;
     
 //   for(const product of products) {
@@ -521,7 +521,7 @@
 //     }
 //   }
 //   return totalPrice = 0;
-//     // Change code above this line
+    // Change code above this line
 //   }
 //   console.log(calculateTotalPrice("Blaster"));
 //   console.log(calculateTotalPrice("Radar"));
@@ -531,7 +531,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------
 
-Завдання 21.
+// Завдання 21.
 // Надійшов триденний прогноз максимальних температур і ми рахуємо середню температуру 
 // за три дні (meanTemperature). Заміни оголошення 
 // змінних yesterday, today і tomorrow однією операцією деструктуризації властивостей 
@@ -542,16 +542,16 @@
 //     today: 26,
 //     tomorrow: 33,
 //   };
-//   // Change code below this line
+  // Change code below this line
 //   const { yesterday, today, tomorrow } = highTemperatures;
   
   
-//   // Change code above this line
+  // Change code above this line
 //   const meanTemperature = (yesterday + today + tomorrow) / 3;
 
 // ---------------------------------------------------------------------------------------------------------------
 
-Завдання 22.
+// Завдання 22.
 // У прогнозі максимальних температур також може бути необов'язкова властивість icon - іконка погоди. 
 // Заміни оголошення змінних yesterday, today, tomorrow і icon однією операцією деструктуризації властивостей
 //  об'єкта highTemperatures. Задай значення за 
@@ -562,7 +562,7 @@
 //     today: 26,
 //     tomorrow: 33,
 //   };
-//   // Change code below this line
+  // Change code below this line
   
 //   const {
 //     yesterday,
@@ -571,12 +571,12 @@
 //     icon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg", 
 //   } = highTemperatures;
   
-//   // Change code above this line
+  // Change code above this line
 //   const meanTemperature = (yesterday + today + tomorrow) / 3;
 
 // -----------------------------------------------------------------------------------------------------------
 
-Завдання 23.
+// Завдання 23.
 // Заміни оголошення змінних highYesterday, highToday, highTomorrow і highIcon однією операцією 
 // деструктуризації властивостей об'єкта highTemperatures. Задай значення 
 // за замовчуванням для highIcon - рядок "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg".
@@ -586,7 +586,7 @@
 //     today: 26,
 //     tomorrow: 33,
 //   };
-//   // Change code below this line
+  // Change code below this line
   
   
   
@@ -597,12 +597,12 @@
 //     icon: highIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg", 
 //   } = highTemperatures;
   
-//   // Change code above this line
+  // Change code above this line
 //   const meanTemperature = (highYesterday + highToday + highTomorrow) / 3;
 
 // -----------------------------------------------------------------------------------------------------------------
 
-Завдання 24.
+// Завдання 24.
 // Виконай рефакторинг циклу for...of таким чином, щоб в ньому використовувалася деструктуризація об'єкта.
 
 // const colors = [
@@ -614,7 +614,7 @@
   
 //   const hexColors = [];
 //   const rgbColors = [];
-//   // Change code below this line
+  // Change code below this line
   
 //   for (const {hex, rgb} of colors) {
     
@@ -624,7 +624,7 @@
 
 // -----------------------------------------------------------------------------------------------------------------
 
-Завдання 25.
+// Завдання 25.
 // Ми отримали прогноз погоди на два дні, з мінімальними і максимальними температурами, а також 
 // необов'язковими іконками. Заміни оголошення всіх змінних однією операцією деструктуризації властивостей
 //  об'єкта forecast. Задай значення за замовчуванням для іконок, змінних 
@@ -641,7 +641,7 @@
 //       high: 31,
 //     },
 //   };
-//   // Change code below this line
+  // Change code below this line
 //   const {
 //   today: {high: highToday, low: lowToday, icon:todayIcon="https://www.flaticon.com/svg/static/icons/svg/861/861059.svg"},
 //   tomorrow: {high: highTomorrow,  low:lowTomorrow, icon: tomorrowIcon = 'https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg'},
@@ -649,7 +649,7 @@
 
 // -----------------------------------------------------------------------------------------------------------------
 
-Завдання 26.
+// Завдання 26.
 // Функція calculateMeanTemperature(forecast) приймає один параметр forecast - об'єкт температур на два дні наступного 
 // формату.
 
@@ -672,7 +672,7 @@
 //       console.log(todayLow);
 //       console.log(tomorrowLow);
       
-//       // Change code above this line
+      // Change code above this line
 //       const result = (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
 //       return result; 
 //       console.log(result);
@@ -682,13 +682,13 @@
 
 // --------------------------------------------------------------------------------------------------------------
 
-Завдання 27.
+// Завдання 27.
 // У змінній scores зберігається масив результатів тестування. Використовуючи розподіл і 
 // методи Math.max() і Math.min(), доповни код таким чином, щоб у змінній bestScore був найвищий 
 // бал, а у worstScore - найнижчий.
 
 // const scores = [89, 64, 42, 17, 93, 51, 26];
-// // Change code below this line
+// Change code below this line
 // const bestScore = Math.max (... scores);
 // const worstScore = Math.min (... scores);
 
@@ -697,7 +697,7 @@
 
 // --------------------------------------------------------------------------------------------------------------
 
-Завдання 28.
+// Завдання 28.
 // У змінних firstGroupScores, secondGroupScores і thirdGroupScores зберігаються результати 
 // тестування окремих груп. Використовуючи розподіл, доповни код таким чином, щоб:
 
@@ -708,7 +708,7 @@
 // const firstGroupScores = [64, 42, 93];
 // const secondGroupScores = [89, 14, 51, 26];
 // const thirdGroupScores = [29, 47, 18, 97, 81];
-// // Change code below this line
+// Change code below this line
 // const allScores = [...firstGroupScores, ...secondGroupScores, ...thirdGroupScores];
 // const bestScore = Math.max(...allScores);
 // const worstScore = Math.min(...allScores);
@@ -718,7 +718,7 @@
 
 // ---------------------------------------------------------------------------------------------------------------------
 
-Завдання 29.
+// Завдання 29.
 // В конструкторі можна створювати нові тести, для яких є налаштування за замовчуванням, які зберігаються у 
 // змінній defaultSettings. Під час створення тесту, усі або 
 // частину налаштувань можна перевизначити, вони зберігаються у змінній overrideSettings.
@@ -739,13 +739,13 @@
 //     withPassword: true,
 //     timePerQuestion: 30,
 //   };
-//   // Change code below this line
+  // Change code below this line
 //   const finalSettings = {...defaultSettings, ...overrideSettings};
 //   console.log(finalSettings);
 
 // ---------------------------------------------------------------------------------------------------------
 
-Завдання 30. 
+// Завдання 30. 
 // Напиши функцію makeTask(data) яка приймає один параметр data - об'єкт з наступними властивостями.
 
 // text - текст завдання.
@@ -763,11 +763,11 @@
 //     const completed = false;
 //     const category = "General";
 //     const priority = "Normal";
-//     // Change code below this line
+    // Change code below this line
 //     return{ completed, category, priority, ...data} ;
     
   
-//     // Change code above this line
+    // Change code above this line
 //   }
 //   console.log(makeTask({}));
 //     console.log(makeTask({ category: "Homemade", priority: "Low", text: "Take out the trash" }));
@@ -776,7 +776,7 @@
 
 // ------------------------------------------------------------------------------------------------------
 
-Завдання 31.
+// Завдання 31.
 // Використовуючи операцію rest, доповни код функції add() таким чином, щоб вона приймала будь-яку кількість
 //  аргументів, рахувала і повертала їх суму.
 
@@ -787,7 +787,7 @@
 //       total += arg;
 //     }
 //     return total;
-//     // Change code above this line
+    // Change code above this line
 //   }
 //   console.log(add(15, 27));
 //   console.log(add(12, 4, 11, 48));
@@ -796,7 +796,7 @@
 
 // ----------------------------------------------------------------------------------------------------------
 
-Завдання 32.
+// Завдання 32.
 // Функція addOverNum() рахує суму всіх аргументів. Зміни параметри і тіло функції addOverNum() таким 
 // чином, щоб вона рахувала суму тільки тих аргументів, 
 // які більші за задане число. Це число повинно бути першим параметром функції.
@@ -811,7 +811,7 @@
 //       }
 //   }
 //     return total;
-//     // Change code above this line
+    // Change code above this line
 //   }
 //   console.log(addOverNum(50, 15, 27));
 //   console.log(addOverNum(10, 12, 4, 11, 48, 10, 8));
@@ -820,7 +820,7 @@
 
 // ----------------------------------------------------------------------------------------------------------
 
-Завдання 33.
+// Завдання 33.
 // Функція findMatches() приймає довільну кількість аргументів. Першим аргументом завжди буде масив чисел,
 //  а решта аргументів будуть просто числами.
 
@@ -839,7 +839,7 @@
 //       matches.push(item);
 //     }
 //   }
-//     // Change code above this line
+    // Change code above this line
 //     return matches;
 //   }
 //   console.log(findMatches([1, 2, 3, 4, 5], 1, 8, 2, 7));
@@ -849,7 +849,7 @@
 
 // ------------------------------------------------------------------------------------------------------------
 
-Завдання 34.
+// Завдання 34.
 // Додай об'єкту bookShelf ще два методи, які поки що будуть повертати просто рядки за аналогією з getBooks() і 
 // addBook(bookName).
 
@@ -861,7 +861,7 @@
 // відповідно.
 
 // const bookShelf = {
-//     // Change code below this line
+    // Change code below this line
 //     books: ["The last kingdom", "The guardian of dreams"],
 //     getBooks() {
 //       return "Returning all books";
@@ -875,12 +875,12 @@
 //       updateBook(oldName, newName) {
 //       return `Updating book ${oldName} to ${newName}`;
 //     },
-//     // Change code above this line
+    // Change code above this line
 //   };
 
 // ---------------------------------------------------------------------------------------------------------------
 
-Завдання 35.
+// Завдання 35.
 // Доповни метод updateBook(oldName, newName) таким чином, щоб він змінював назву книги з oldName 
 // на newName у властивості books. Використовуй 
 // indexOf() для того, щоб знайти потрібний елемент масиву, і splice() для того, щоб замінити цей елемент.
@@ -888,7 +888,7 @@
 // const bookShelf = {
 //     books: ["The last kingdom", "Haze", "The guardian of dreams"],
 //     updateBook(oldName, newName) {
-//       // Change code below this line
+      // Change code below this line
   
 //   for(let book of this.books){
 //     if(book == oldName){
@@ -898,66 +898,66 @@
 //   }
   
 //   return `updateBook ${oldName} to ${newName}`;
-//       // Change code above this line
+      // Change code above this line
 //     },
 //   };
 
 // ------------------------------------------------------------------------------------------------------------
 
-Завдання 36.
+// Завдання 36.
 // До нас звернулася власниця крамниці зілля «У старої жаби» і замовила програму для ведення інвентарю - додавання, 
 // видалення, пошуку 
 // та оновлення зілля. Додай об'єкту atTheOldToad властивість potions, значенням якої зроби порожній масив.
 
 // const atTheOldToad = {
-//     // Change code below this line
+    // Change code below this line
   
 //   potions:[],
   
-//     // Change code above this line
+    // Change code above this line
 //   };
 
 // --------------------------------------------------------------------------------------------------------------
 
-Завдання 37.
+// Завдання 37.
 // Додай об'єкту atTheOldToad метод getPotions(), який просто повертає значення властивості potions.
 
 // const atTheOldToad = {
 //     potions: ["Speed potion", "Dragon breath", "Stone skin"],
-//     // Change code below this line
+    // Change code below this line
 //    getPotions() {
 //       return this.potions;
 //     },
-//     // Change code above this line
+    // Change code above this line
 //   };
   
 // ---------------------------------------------------------------------------------------------------------------
 
-Завдання 38.
+// Завдання 38.
 // Доповни метод addPotion(potionName) таким чином, щоб він додавав зілля potionName 
 // в кінець масиву зілля у властивості potions.
 
 // const atTheOldToad = {
 //     potions: ["Speed potion", "Dragon breath", "Stone skin"],
 //     addPotion(potionName) {
-//       // Change code below this line
+      // Change code below this line
   
 //    this.potions.push(potionName)
   
-//       // Change code above this line
+      // Change code above this line
 //     },
 //   };
 
 // ------------------------------------------------------------------------------------------------------------------
 
-Завдання 39.
+// Завдання 39.
 // Доповни метод removePotion(potionName) таким чином, щоб він видаляв зілля potionName 
 // з масиву зілля у властивості potions.
 
 // const atTheOldToad = {
 //     potions: ["Speed potion", "Dragon breath", "Stone skin"],
 //     removePotion(potionName) {
-//       // Change code below this line
+      // Change code below this line
       
 //   for(potion of this.potions){
     
@@ -968,20 +968,20 @@
 //   }
   
   
-//       // Change code above this line
+      // Change code above this line
 //     },
 //   };
 
 // --------------------------------------------------------------------------------------------------------------
 
-Завдання 40.
+// Завдання 40.
 // Доповни метод updatePotionName(oldName, newName) таким чином, щоб він оновлював назву зілля з oldName на newName
 //  в масиві зілля у властивості potions.
   
 // const atTheOldToad = {
 //     potions: ["Speed potion", "Dragon breath", "Stone skin"],
 //     updatePotionName(oldName, newName) {
-//       // Change code below this line
+      // Change code below this line
   
 //   for(potion of this.potions){
     
@@ -992,13 +992,13 @@
 //   }
   
   
-//       // Change code above this line
+      // Change code above this line
 //     },
 //   };
 
 // -------------------------------------------------------------------------------------------------------------
 
-Завдання 41. 
+// Завдання 41. 
 // Замовниця хоче, щоб кожне зілля було представлено не тільки ім'ям, але й ціною, а в майбутньому, можливо, й 
 // іншими характеристиками. Тому зараз у властивості potions буде зберігатися масив об'єктів з наступними властивостями.
 
@@ -1055,7 +1055,7 @@
 //       { name: "Dragon breath", price: 780 },
 //       { name: "Stone skin", price: 520 },
 //     ],
-//     // Change code below this line
+    // Change code below this line
 //     getPotions() {
 //       return this.potions;
 //     },
